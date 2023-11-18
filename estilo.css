@@ -1,0 +1,82 @@
+.cabecalho{
+    background-image: linear-gradient(#aadffc 45%,rgb(255, 255, 255) );
+    
+}
+
+.navbar {
+    justify-content: space-around;
+}
+
+.paragrafo{
+    justify-content: center;
+    text-align: center;
+    width: 900px;
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+.circulo_azul{
+    background-color: #aadffc;
+    border-radius: 35px;
+    width: 55px;
+    height: 55px;
+}
+
+#patas{
+    padding-left: 80px;
+}
+
+#icon_home{
+    padding-left: 60px;
+}
+#imagens_port{
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+/*Login*/
+
+.btn-primary{
+    --bs-btn-bg: #aadffc;
+    --bs-btn-border-color: #aadffc;
+}
+
+.login{
+    padding-left: 250px;
+}
+
+/* Perfil */
+
+.circulo_azul_perfil{
+    background-color: #aadffc;
+    border-radius: 40px;
+    width: 85px;
+    height: 85px;
+}
+
+#imagens_port_perfil{
+    padding-left:5px;
+    padding-top: 5px;
+}
+
+#imgPatas{
+    padding-left: 1205px;
+}
+
+#teste{
+    border: 1px green solid;
+    
+}
+
+/* Banho e Tosa*/
+
+.fundoBanhoTosa{
+   padding-top: 10px;
+   background-color: #aadffc;
+   padding-left: 110px;
+
+}
+
+#imgLocais{
+    width: 250px;
+}
