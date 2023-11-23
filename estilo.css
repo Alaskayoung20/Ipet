@@ -11,15 +11,8 @@
     justify-content: center;
     text-align: center;
     width: 900px;
-    padding-top: 20px;
+    padding-top: 80px;
     font-size: 18px;
-}
-
-.circulo_azul{
-    background-color: #aadffc;
-    border-radius: 35px;
-    width: 55px;
-    height: 55px;
 }
 
 #patas{
@@ -27,11 +20,12 @@
 }
 
 #icon_home{
-    padding-left: 60px;
+    padding-right: 100px;
+    padding-top: 1px;
 }
 #imagens_port{
-    padding-left: 5px;
-    padding-top: 5px;
+    padding-top: 2px;
+    border: #aadffc solid 1px;
 }
 
 /*Login*/
@@ -45,27 +39,65 @@
     padding-left: 250px;
 }
 
-/* Perfil */
+/* perfil */
 
-.circulo_azul_perfil{
+body {
+    box-sizing: border-box;
+    background-color: white;
+    flex: 1;
+}
+
+.cabecalho__menu {
+    display: flex;
+    align-content: flex-end;
+    gap: 80px;
+}
+
+.cabecalho__menu__link {
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+ /* .apresentacao {
+      width: 1000; 
+    padding: 5% 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px; 
+
+} */
+.painel__principal__perfil{
+    padding-left: 250px;
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+}
+
+.foto__perfil{
+    margin: 0%;
+    padding: 5% 17%;
+    display: flex;
+    justify-content: space-around;
+    gap: 82px;
+}
+
+.emoji__center{
     background-color: #aadffc;
-    border-radius: 40px;
-    width: 85px;
-    height: 85px;
-}
-
-#imagens_port_perfil{
-    padding-left:5px;
-    padding-top: 5px;
-}
-
-#imgPatas{
-    padding-left: 1205px;
-}
-
-#teste{
-    border: 1px green solid;
+    border-radius: 70px;
+    width: 110px;
+    height: 110px; 
+    display: flex;
+    align-items: center;
+    padding: 0px 25px;
     
+}
+
+.nomes{
+    display: flex;
+    padding-left: 170px ;
+    gap: 170px;
+
 }
 
 /* Banho e Tosa*/
@@ -80,3 +112,15 @@
 #imgLocais{
     width: 250px;
 }
+
+/* Pagina de cada produto individual*/
+
+#produtos{
+    width: 400px;
+    padding-top: 55px;
+}
+
+#frete{
+    width: 250px;
+}
+
