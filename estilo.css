@@ -31,8 +31,8 @@
 /*Login*/
 
 .btn-primary{
-    --bs-btn-bg: #aadffc;
-    --bs-btn-border-color: #aadffc;
+    --bs-btn-bg: #58bae4;
+    --bs-btn-border-color: #58bae4;
 }
 
 .login{
@@ -110,17 +110,6 @@ body {
 }
 
 #imgLocais{
-    width: 250px;
-}
-
-/* Pagina de cada produto individual*/
-
-#produtos{
-    width: 400px;
-    padding-top: 55px;
-}
-
-#frete{
     width: 250px;
 }
 

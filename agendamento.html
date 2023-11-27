@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="./css/darkMode.css" rel="stylesheet">
+    
+    <title>Ipet</title>
+</head>
+<body class="fundo">
+    <div class="cabecalho">
+        <ul class="navbar">
+            <img class="logo" src="Imagens/logo.png">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="banhoTosa.html">Banho & Tosa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="perfil.html">Perfil</a>
+            </li>
+    </div>
+
+    <div class="container-fluid">
+      <div class="container">
+          <div class="row">
+                <div class="col-md-10">
+                    <div class="fundoBanhoTosa">
+                      <div class="container text-center">
+                        <div class="row row-cols-2">
+                          <img class="col" id="imgLocais" src="Imagens/local1.jpg" alt="Petshop 1">
+                          <p style="padding-top: 50px;">Rua Lourenço de Azevedo Vila Morse, São Paulo CEP:05624-060</p>
+                        </div>
+                        <div class="col-md-2" style="padding-top: 15px;">
+                          <div id="monthDisplay"></div>
+                        </div>
+                        <div class="col-md-10" style="padding-left: 500px;">
+                          <div>
+                              <button id="backButton">Voltar</button>
+                              <button id="nextButton">Próximo</button>
+                          </div>
+                        </div>
+                                                    
+                        <div id="weekdays">
+                          <div>Domingo</div>
+                          <div>Segunda-feira</div>
+                          <div>Terça-feira</div>
+                          <div>Quarta-feira</div>
+                          <div>Quinta-feira</div>
+                          <div>Sexta-feira</div>
+                          <div>Sábado</div>
+                        </div>
+
+                        <!-- div dinamic -->
+                        <div id="calendar" ></div>
+
+                        <div id="newEventModal">
+                          <h2>New Evente</h2>
+                      
+                          <input id="eventTitleInput" placeholder="Event Title"/>
+                      
+                          <button id="saveButton"> Salvar</button>
+                          <button id="cancelButton">Cancelar</button>
+                        </div>
+                  
+                        <div id="deleteEventModal">
+                          <h2>Evento</h2>
+                      
+                          <div id="eventText"></div><br>
+                      
+                  
+                          <button id="deleteButton">Deletar</button>
+                          <button id="closeButton">Fechar</button>
+                        </div>
+                  
+                        <div id="modalBackDrop"></div>
+
+                        <script src="scripts/darkMode.js"></script>
+                        <script src="./scripts/main.js"></script>
+
+                        <br>
+                        <div class="col-sm-12">
+                          <form>
+                            <div class="col" >
+                              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 13:00
+                              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 14:00
+                              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 14:10
+                          </div>
+
+                            <div class="col">
+                              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 14:20
+                              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 15:30
+                              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 16:20
+                            </div>
+                            <br>
+                            <input class="btn btn-primary" type="submit" value="Agendar">
+                          </form>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <img id="patas" src="Imagens/patas.png" alt="patas">
+                </div>
+          </div>
+      </div>
+  </div>
+   
+
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+</html>
