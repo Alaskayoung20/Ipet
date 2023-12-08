@@ -113,3 +113,6 @@ body {
     width: 250px;
 }
 
+.row{
+    flex-wrap: nowrap;
+}
