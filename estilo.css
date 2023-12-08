@@ -112,7 +112,3 @@ body {
 #imgLocais{
     width: 250px;
 }
-
-.row{
-    flex-wrap: nowrap;
-}
